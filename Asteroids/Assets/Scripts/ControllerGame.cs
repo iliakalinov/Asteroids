@@ -33,6 +33,8 @@ public class ControllerGame : MonoBehaviour
 
     public void ClickStartGame()
     {
+        ChangeVisible(textScoreGame.gameObject, true);
+
         score = 0;
         writeNewScore(score);
 
